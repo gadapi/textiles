@@ -1,13 +1,13 @@
 backend:
   name: github
-  repo: W3Layouts/gatsby-starter-delog
+  repo: gadapi/textiles
 media_folder: static/assets
 public_folder: /assets
 collections:
   - name: blog
     label: Blog
     folder: _data/blog
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     create: true
     fields:
       - {
